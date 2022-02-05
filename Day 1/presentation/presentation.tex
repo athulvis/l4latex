@@ -1,0 +1,68 @@
+\documentclass[11pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{smartdiagram}
+\usepackage{hyperref}
+\usetheme{Malmoe}
+\begin{document}
+	\author{Athul R T}
+	\title{Introduction to \LaTeX}
+	%\subtitle{}
+	%\logo{}
+	%\institute{}
+	%\date{}
+	%\subject{}
+	%\setbeamercovered{transparent}
+	%\setbeamertemplate{navigation symbols}{}
+	\begin{frame}[plain]
+		\maketitle
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{\TeX}
+		
+		\begin{itemize}
+			\item Typesetting System
+			\item Designed by Donald Knuth in 1978 	
+			\item Free{\it dom} Software.		
+		\end{itemize}
+	\end{frame}
+	\begin{frame}
+		\frametitle{\LaTeX}
+		\begin{itemize}
+			\item Macros added to \TeX
+			\item Developed by Leslie Lamort in 1984
+		\end{itemize}
+		
+		\vspace{5mm}
+		\begin{quote}
+			Is \LaTeX \;  hard to use?
+			
+			It's easy to use --if you're one of the 2\% of the population who thinks logically and can read an instruction	manual. The other 98\% of the population would find it very hard or impossible to use.
+		\end{quote}
+	\end{frame}
+	\begin{frame}
+		\frametitle{Structure}
+		\begin{center}
+			\smartdiagram[bubble diagram]{\TeX,
+				Distributions, Editors, Engines, Packages}
+		\end{center}
+	\end{frame}
+	\begin{frame}{Details}
+		\begin{center}
+			\smartdiagram[descriptive diagram]{
+				{Distributions,{TeXlive, MikTeX, etc.}},
+				{Editors, {TeXstudio, TeXmaker, Kyle, TeXshop, Overleaf etc}},
+				{Engines, {TeX, PDFLaTeX, XeLaTeX etc}},
+				{Packages,{amsmath, geometry, tikz, graphicx etc}}}
+		\end{center}
+	\end{frame}
+	\begin{frame}{Resources}
+	\begin{itemize}
+		\item \url{https://www.overleaf.com/learn/latex/}
+		\item \url{https://www.tug.org/twg/mactex/tutorials/ltxprimer-1.0.pdf}
+		\item \url{tex.stackexchange.com}
+	\end{itemize}
+\end{frame}
+\end{document} 
