@@ -4,7 +4,7 @@ A 2 -day Workshop on Introduction to LaTeX
 
 ## Day 1
 
-Please find the source code and PDF of presentation from here.
+Please find the source code and PDF of presentation from [here](Day 1/presentation) and the sample document from [here](Day 1/test_doc).
 
 ### Installation of Texlive in GNU/Linux based systems (eg:- Ubuntu)
 
@@ -34,11 +34,26 @@ Please find the source code and PDF of presentation from here.
 
 ### MikTeX installation in Windows.
 
-Please follow the following link for detailed information on [MikTeX installation](https://miktex.org/howto/install-miktex)
+- Please follow the following link for detailed information on [MikTeX installation](https://miktex.org/howto/install-miktex)
 
-Download Installation file from [here](https://miktex.org/download)
+- Download Installation file from [here](https://miktex.org/download)
 
-Download Texstudio from [here](https://www.texstudio.org/)
+- Download Texstudio from [here](https://www.texstudio.org/)
+
+### A sample Document
+
+Please save the following content in a file with name `document.tex`. Open in Texstudio and use `Build & View` button  (or press F5) to comple and view the PDF file.
+
+```
+    \documentclass[a4paper, 12pt]{article}
+
+    \begin{document}
+
+    This my first \LaTeX document!.
+
+    \end{document}
+
+```
 
 ### Some references
 
