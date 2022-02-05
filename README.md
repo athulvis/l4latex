@@ -4,7 +4,7 @@ A 2 -day Workshop on Introduction to LaTeX on 05 February 2022 organized by **Po
 
 ## Day 1
 
-Please find the source code and PDF of presentation from [here](Day 1/presentation) and the sample document from [here](Day 1/test_doc).
+Please find the source code and PDF of presentation from [here](https://github.com/athulvis/l4latex/tree/main/Day%201/presentation) and the sample document from [here](https://github.com/athulvis/l4latex/tree/main/Day%201/test_doc).
 
 ### Installation of Texlive in GNU/Linux based systems (eg:- Ubuntu)
 
