@@ -1,6 +1,6 @@
 # L 4 LaTeX
 
-A 2 -day Workshop on Introduction to LaTeX
+A 2 -day Workshop on Introduction to LaTeX on 05 February 2022 organized by *Poetry of Reality*
 
 ## Day 1
 
