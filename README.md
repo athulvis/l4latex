@@ -81,61 +81,61 @@ Source code of sample documents can be found in [Day 2](https://github.com/athul
 
 - Article
 
-    ```
-    \documentclass[11pt,a4]{article}
+```
+\documentclass[11pt,a4]{article}
 
-    ```
+```
 - Book
 
-    ```
-    \documentclass[11pt,a4]{book}
-    ```
+```
+\documentclass[11pt,a4]{book}
+```
 - Report
 
-    ```
-    \documentclass[11pt,a4]{report}
-    ```
+```
+\documentclass[11pt,a4]{report}
+```
 - Presentation
 
-    ```
-    \documentclass[11pt]{beamer}
-    ```
+```
+\documentclass[11pt]{beamer}
+```
 
 #### Import Necessary packages
 
 Necessary packages for creating a scientific document are given below:
 
-    | Package Name | Purpose |
-    | ------------ | ------- |
-    | graphicx | Adding images |
-    | amsmath | Mathematical equations |
-    | amssymb | Mathematical symbols |
-    | inputenc | Different input encodings like Unicode |
-    | fontenc | Font encodings |
-    | geometry | Change page structure |
-    | hyperref | Hyperlink |
+| Package Name | Purpose |
+| ------------ | ------- |
+| graphicx | Adding images |
+| amsmath | Mathematical equations |
+| amssymb | Mathematical symbols |
+| inputenc | Different input encodings like Unicode |
+| fontenc | Font encodings |
+| geometry | Change page structure |
+| hyperref | Hyperlink |
 
 #### Add title and author
 
 Add below in preamble (before `\begin{document}`
 
-    ```
-    \title{add title}
-    \author{ Author name}
-    \date{\today}
-    ```
+```
+\title{add title}
+\author{ Author name}
+\date{\today}
+```
 Also use `\maketitle` after `\begin{document}`.
 
 #### Add Abstract
 
-    ```
+```
 
-    \begin{abstract}
+\begin{abstract}
 
-    Add abstract text.
+Add abstract text.
 
-    \end{abstract}
-    ```
+\end{abstract}
+```
 
 #### Add section and subsection
 
